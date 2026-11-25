@@ -13,7 +13,7 @@ fastapi==0.165.0
 h11==0.16.0
 idna==3.20
 opentelemetry-api==1.45.2
-psycopg2-binary==2.9.13
+psycopg[binary]==3.3.9
 pwdlib==0.4.2
 pyasn1==0.6.5
 pycparser==3.12
