@@ -18,11 +18,11 @@ CORSMiddleware,
 allow_origins=[
 "http://localhost:5173",
 "https://stock-flow-frontend-blush.vercel.app",
-"https://stock-flow-frontend-8gguqb4c5-uday-2900.vercel.app"
+"https://stock-flow-frontend-8gguqb4c5-uday-2900.vercel.app",
 ],
 allow_credentials=True,
-allow_methods=[""],
-allow_headers=[""],
+allow_methods=["*"],
+allow_headers=["*"],
 )
 
 app.include_router(auth_router)
